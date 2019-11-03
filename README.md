@@ -1,2 +1,2 @@
 # Embedded-Prog-Resources
-Skd-Byte Source Code, Templates and Documents
+This repository contains Source Code, Templates and Documents referenced on <skd-byte-blog//underdevelopment>
