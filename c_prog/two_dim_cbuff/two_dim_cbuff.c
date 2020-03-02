@@ -106,11 +106,11 @@ uint32_t Cbuff2D_GetLength(cbuffHandle cbuff)
 {
   if(cbuff->head > cbuff->tail)
   {
-    return (cbuff->head - cbuff->tail);
-  }
+    return (cbuff->head - cbuff->tail);   
+  }                                                    
   else
   {
-    return (cbuff->tail - cbuff->head);
+    return ((cbuff->head - cbuff->base) + ((cbuff->base + cbuff->size) - cbuff->tail));
   }
 }
 

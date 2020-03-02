@@ -119,14 +119,3 @@ void Cbuff_flush(cbuffHandle cbuff)
   cbuff->tail = 0;
 } /* Cbuff_flush() */
 /*** end of file ***/
-
-
-
-
-
-
-
-
-
-
-
